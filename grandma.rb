@@ -4,7 +4,7 @@
 def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!".upcase
     puts "I LOVE YOU TOO PUMPKIN!"
-  elsif speak_to_grandma == "WHAT DID YOU EAT TODAY?".upcase
+  elsif phrase == "WHAT DID YOU EAT TODAY?".upcase
     puts "NO, NOT SINCE 1938!"
   elsif speak_to_grandma == "WHAT?".upcase
    puts "NO, NOT SINCE 1938!"
